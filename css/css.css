@@ -1,0 +1,155 @@
+html, body
+{
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	margin: 0;
+	font-family: Verdana, Sans-Serif;
+}
+img
+{
+	display: block;
+	border: none;
+}
+#main
+{
+	margin: 35px 0 0 35px;
+	width: 715px;
+	position: relative;
+}
+#ball
+{
+	float: left;
+	margin-right: 35px;
+}
+#nav
+{
+	float: left;
+}
+#nav ul, #nav li
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#nav li
+{
+	display: inline;
+}
+#nav h1, #nav ul
+{
+	width: 420px;
+}
+#nav a, a
+{
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	padding-left: 15px;
+	background: transparent url(../graphics/blueball.gif) no-repeat top left;
+	text-decoration: none;
+	color: #005b99;
+	margin: 5px 0 0 0;
+}
+a
+{
+	background: transparent;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+a:hover
+{
+	color: #000;	
+}
+#nav a:hover, #nav .sel
+{
+	background-image: url(../graphics/smallball.gif);
+	color: #000;	
+}
+#logo
+{
+	float: right;
+}
+#content
+{
+	clear: both;
+	padding: 40px 0 0 0;
+}
+.content
+{
+	clear: both;
+	padding: 0px 130px 20px 30px;
+}
+.content img
+{
+	float: right;
+	margin: 0 0 10px 10px;
+}
+#nav h1
+{
+	color: #5dbc56;
+}
+h1
+{
+	margin: 0;
+	padding: 0 0 12px 0;
+	font-size: 16px;
+}
+li, a, p, td, h2, h3
+{
+	font-size: 11px;
+}
+p
+{
+	margin: 0;
+	padding: 0 0 6px 0;
+	line-height: 15px;
+}
+.table
+{
+	background: #000;
+	float: left;
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-position: 7px 7px;
+	position: relative;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.table img
+{
+	border: solid 7px #000;
+}
+.table .topLeft, .table .topRight, .table .bottomLeft, .table .bottomRight
+{
+	position: absolute;
+	border: none;
+}
+.table .topRight
+{
+	right: 0px;
+	_right: -1px;
+}
+.table .bottomRight
+{
+	right: 0px;
+	_right: -1px;
+	bottom: 0px;
+}
+.table .bottomLeft
+{
+	left: 0px;
+	bottom: 0px;
+}
+ul
+{
+	margin: 0 0 0 20px;
+	padding: 6px 0 12px 0;
+}
+li
+{
+	margin: 0;
+	padding: 0 0 0 0;
+	line-height: 15px;
+}
