@@ -95,8 +95,13 @@ body {
   animation-iteration-count: infinite;
   animation-timing-function: linear; }
 
+#mars .pos.pos-1 {
+  left: 40%;
+}
+
 #mars .pos.pos-2 {
   top: 0 !important;
+  left: 35% !important;
 }
 
 .nav-link-group {
@@ -119,7 +124,7 @@ body {
 #mars .pos.pos-4 {
   right: 0;
   left: unset;
-  top: 50%;
+  top: 68%;
 }
 
 #jupiter .pos.pos-2 {
@@ -379,7 +384,7 @@ body {
 #earth .pos,
 #earth .planet,
 #earth.orbit {
-  animation-duration: 45.00021s; }
+  animation-duration: 60.57017s; }
 
 #earth .orbit .pos,
 #earth .orbit {
@@ -524,10 +529,11 @@ body {
   margin-left: -20em; }
 
 .scale-stretched #earth.orbit {
-  width: 72em;
-  height: 72em;
-  margin-top: -36em;
-  margin-left: -36em; 
+  width: 56em;
+  height: 56em;
+  margin-top: -28em;
+  margin-left: -28em; 
+  border: none;
   }
 
 .scale-stretched #earth .orbit {
@@ -1058,7 +1064,7 @@ body {
 /* --------------------------------------------------------------------------- earth ; pos: Right */
 #earth .pos {
   left: 100%;
-  top: 50%; }
+  top: 10%; }
 
 #earth .planet {
   animation-name: shadow-earth; }
