@@ -118,3 +118,17 @@ body {
   border: .07em solid rgba(160,147,130,.5);
   box-sizing: border-box; box-sizing: border-box;
 }
+
+#moonshines .ring:after {
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  width: 2.2em;
+  height: 2.2em;
+  margin-top: -1.1em;
+  margin-left: -1.1em;
+  border: .07em solid rgba(160,147,130,.5);
+  box-sizing: border-box; box-sizing: border-box;
+}
